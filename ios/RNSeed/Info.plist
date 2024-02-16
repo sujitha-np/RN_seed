@@ -35,6 +35,14 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>UISupportsDocumentBrowser</key>
+	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app needs access to your media library to provide personalized music recommendations and playlists.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
@@ -51,5 +59,15 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIDocumentInteractionController</key>
+	<true/>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>We need access to the document directory for read files.</string>
+	<key>NSDocumentsDirectory</key>
+	<string>we would like to access your documents</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo library usage</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Photo library add usage</string>
 </dict>
 </plist>
